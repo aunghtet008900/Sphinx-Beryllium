@@ -820,6 +820,11 @@ CONFIG_KLAPSE=y
 
 
 #
+# Misc
+#
+CONFIG_RWSEM_PRIO_AWARE=y
+
+#
 # Controllers
 #
 CONFIG_INPUT_FF_MEMLESS=y
