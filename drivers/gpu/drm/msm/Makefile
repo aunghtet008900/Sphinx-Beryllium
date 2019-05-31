@@ -190,4 +190,3 @@ obj-$(CONFIG_DRM_MSM)	+= msm_drm.o
 msm_drm-$(CONFIG_KLAPSE) += sde/klapse.o
 
 CFLAGS_sde_crtc.o += -Wframe-larger-than=8192
->>>>>>> f69e129405c2... sde_crtc: Don't allocate memory dynamically in sde_crtc_atomic_check()
